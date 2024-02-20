@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const port = 3002;
-const dataGenerator = require("./service/dataGenerator");
+const dataGenerator = require("./services/dataGenerator");
 
 app.use(express.json());
 
